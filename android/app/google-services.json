@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "722045760591",
+    "project_id": "jugol-494d8",
+    "storage_bucket": "jugol-494d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722045760591:android:033d226a5bdef191fda63a",
+        "android_client_info": {
+          "package_name": "com.jugol.bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722045760591-106b8ap977s4rgi12u9g2lrgjjoj5c4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jugol.bd",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "722045760591-teupqlohuqfrtckptccoomuccb8mj1st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQhexv471M93WbSXy39YcYKthezUaKZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722045760591-teupqlohuqfrtckptccoomuccb8mj1st.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "722045760591-t5fjjfnnouddum8v8gcrmlhb6ag6gtco.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jugolapp.new"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

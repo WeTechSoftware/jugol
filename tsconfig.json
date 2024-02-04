@@ -1,0 +1,63 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "baseUrl": "./", /* Base directory to resolve non-absolute module names. */
+    "paths": { /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@images/*": [
+        "assets/images/*"
+      ],
+      "@icons": [
+        "assets/svg/icons"
+      ],
+      "@ui/*": [
+        "src/components/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@colors": [
+        "src/theme-config/colors"
+      ],
+      "@typography": [
+        "src/theme-config/typography"
+      ],
+      "@font-config": [
+        "src/theme-config/fontConfig"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@action-sheets/*": [
+        "src/action-sheets/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ],
+      "@store/*": [
+        "redux/*"
+      ],
+      "@config": [
+        "config.ts"
+      ],
+    },
+  },
+  "include": [
+    "src",
+    "assets",
+    "index.d.ts"
+  ],
+  "files": [
+    "index.d.ts"
+  ]
+}

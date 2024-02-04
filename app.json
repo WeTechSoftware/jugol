@@ -1,0 +1,44 @@
+{
+    "expo": {
+        "name": "jugol",
+        "slug": "jugol",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.jugol.bd",
+            "buildNumber": "1.0.1"
+        },
+        "signingConfig": {
+            "keystorePath": "./android/jugol-release-key.keystore",
+            "keystorePassword": "123456",
+            "keyAlias": "my-key-alias",
+            "keyPassword": "123456"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.jugol.bd"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "d7948bf3-f4a9-4614-81c1-4c3f8b4b8ed3"
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">jugol</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">127108596968889</string>
+  <string name="facebook_client_token">967fa5cb431b9afffb473e2a2a7be52a</string>
+</resources>
